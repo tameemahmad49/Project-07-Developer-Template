@@ -1,0 +1,737 @@
+img {
+    width: 100%;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+ol,
+ul,
+li,
+figcaption,
+textarea,
+input {
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url(https://developerjillur.xyz/mypractice/developer/img/bg.png);
+    border-top: 20px solid #c1c1c1;
+}
+
+.ourBody {
+    margin: auto;
+    max-width: 960px;
+}
+
+.lefT {
+}
+
+.blackh2 {
+    margin-top: 40px;
+}
+
+.blackh2 h2 {
+    margin: 0;
+    font-weight: bold;
+    font-family: sans;
+    font-size: 67px;
+    line-height: 55px;
+}
+
+.BLUEH2 {}
+
+.BLUEH2 h2 {
+    color: #6c9ce4;
+    font-size: 67px;
+    line-height: 55px;
+    margin-bottom: 0;
+    font-family: "Franklin Gothic Heavy", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.GREYH2 {}
+
+.GREYH2 h2 {
+    color: #c0c0c2;
+    font-size: 58px;
+    font-family: "Franklin Gothic Heavy", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 60px;
+}
+
+.LEFTpARAGRAPHdIV {}
+
+.LEFTpARAGRAPHdIV p {
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.LEFTpARAGRAPHdIV p a {
+    color: #024dbc;
+}
+
+.listLefT {}
+
+.listLefT h2 {
+    color: #c0c0c2;
+    font-size: 58px;
+    font-family: "Franklin Gothic Heavy", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.listLefT ul {
+    padding: 16px;
+}
+
+.listLefT ul li {
+    list-style-image: url(https://developerjillur.xyz/mypractice/developer/img/list_style_arrow.png);
+}
+
+.listLefT ul li a {
+    color: black;
+    font-size: 15px;
+    line-height: 32px;
+    font-family: sans;
+}
+
+.listLefT ul li a:hover {
+    color: #024dbc;
+}
+
+.listLefT ul li:nth-child(1) a {
+    color: #024dbc !important;
+}
+
+.formLeft {}
+
+.formLeft h2 {
+    color: #c0c0c2;
+    font-size: 58px;
+    font-family: "Franklin Gothic Heavy", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 60px;
+    margin-bottom: 23px;
+}
+
+.formLeft p {
+    font-size: 14px;
+}
+
+.formLeft form {}
+
+.formLeft form input {
+    display: block;
+    width: 368px;
+    font-size: 12px;
+    border: 1px solid #00000040;
+    margin-bottom: 9px;
+    padding: 6px;
+}
+
+.formLeft form textarea {
+    display: block;
+    width: 368px;
+    font-size: 12px;
+    border: 1px solid #00000040;
+    margin-bottom: 9px;
+    padding: 30px;
+}
+
+.formLeft form a {
+    background: url(https://developerjillur.xyz/mypractice/developer/img/shape.png);
+    padding: 11px;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    margin-left: 377px;
+    background-size: contain;
+    height: 52px;
+    width: 52px;
+    color: white;
+    margin-top: -62px;
+    display: block;
+    line-height: 28px;
+}
+
+.contactLefT {
+    margin-top: 95px;
+}
+
+.contactLefT p {
+    font-size: 13px;
+}
+
+.conLeftAllDiv {
+    display: inline-block;
+}
+
+.conLefSingleDiv {
+    float: left;
+    width: 207px;
+    margin-top: 20px;
+}
+
+.conLefSingleDiv span {
+    float: left;
+    color: white;
+    background: #c0c0c2;
+    width: 32px;
+    border-radius: 43px;
+    font-size: 19px;
+    height: 32px;
+    text-align: center;
+}
+
+.conLefSingleDiv span i {
+    font-size: 12px;
+}
+
+.conLefSingleDiv h6 {
+    font-size: 14px;
+    line-height: 28px;
+    font-family: sans;
+    padding-left: 41px;
+}
+
+.conLefSingleDiv a {
+    font-size: 12px;
+    margin-left: 40px;
+    margin-top: -12px;
+    line-height: 16px;
+    display: block;
+    color: #024dbc;
+}
+
+.righT {
+    margin-left: 66px;
+}
+
+.menuRighT {
+    margin-top: 40px;
+    width: 490px;
+}
+
+.menuRighT ul {
+    text-align: right;
+}
+
+.menuRighT ul li {
+    display: inline-block;
+    transition: .5s;
+}
+
+.menuRighT ul li a {
+    background: url(https://developerjillur.xyz/mypractice/developer/img/shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 26px;
+    font-size: 12px;
+    width: 113px;
+    display: block;
+    margin-left: -38px;
+    color: white;
+    font-family: sans;
+    text-align: center;
+}
+
+.menuRighT ul li a:hover {
+    background: url(https://developerjillur.xyz/mypractice/developer/img/hover_shape.png);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menuRighT ul li:first-child a {
+    background: url(https://developerjillur.xyz/mypractice/developer/img/hover_shape.png);
+    background: ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bannerRighT {
+    margin-top: 54px;
+}
+
+.bannerRighT img {
+    width: 115%;
+}
+
+.BrA1 {
+    position: relative;
+    top: -331px;
+    left: -16px;
+}
+
+.BrA1 a {}
+
+.BrA2 a i,
+.BrA1 a i {
+    color: #00000036;
+    font-size: 21px;
+}
+
+.BrA2 {
+    top: -331px;
+    position: relative;
+    right: -448px;
+}
+
+.BrA2 a {}
+
+.BrA2 a i {}
+
+.welcomeRighT p {
+    width: 466px;
+}
+
+.welcomeRighT {
+    margin-top: -17px;
+}
+
+.graphRighT .formLeft h2 {
+    margin-top: 22px;
+}
+
+.graphDiv {
+    margin-top: -9px;
+    margin-left: 15px;
+    position: absolute;
+}
+
+.allgraph {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-left: 1px solid #c0c0c2;
+    border-bottom: 1px solid #c0c0c2;
+}
+
+.allgraph P {
+    font-size: 15px;
+    transform: rotate(-90deg);
+    font-family: sans;
+    width: 127px;
+    position: absolute;
+    bottom: 69px;
+    z-index: 1;
+    right: -37px;
+    margin-bottom: 0;
+}
+
+.singleGraph {
+    background: #c0c0c2;
+    width: 48px;
+    height: 200px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.singleGraph2 {
+    background: #b9d1f5;
+    height: 156px;
+}
+
+.singleGraph3 {
+    height: 143px;
+}
+
+.singleGraph4 {
+    height: 176px;
+    background: #b9d1f5;
+}
+
+.singleGraph5 {
+    height: 130px;
+}
+
+.singleGraph6 {
+    height: 156px;
+    background: #b9d1f5;
+}
+
+.singleGraph7 {
+    height: 100px;
+}
+
+.tecnologyRight {
+    margin-top: 292px;
+}
+
+.tecnologyRight .contactLefT {}
+
+.tecnologyRight .contactLefT p {}
+
+.techImg {
+    display: flex;
+    margin-left: 46px;
+    margin-top: 36px;
+}
+
+.techImg img {
+    width: 100px;
+    margin-left: 3px;
+    height: 100%;
+}
+
+.serviceSection {
+    padding-top: 72px;
+}
+
+.serviceSection img {
+    width: 289px;
+    float: left;
+    margin-right: 17px;
+}
+
+.serviceSection h2 {
+    color: #c0c0c2;
+    font-size: 58px;
+    font-family: "Franklin Gothic Heavy", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 16px;
+}
+
+.serviceSection p {
+    font-family: sans;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: uppercase;
+}
+
+.footerDiv {
+    padding-top: 67px;
+    padding-bottom: 155px;
+}
+
+.topingo {
+    text-align: right;
+}
+
+.topingo a {
+    background: url(https://developerjillur.xyz/mypractice/developer/img/shape.png);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    padding: 11px;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 12px;
+    background-size: contain;
+    height: 51px;
+    width: 52px;
+    display: inline;
+    color: white;
+    margin-bottom: -8px;
+    display: inline-block;
+    line-height: 28px;
+}
+
+.topingo hr {}
+
+.mainfooter {
+    text-align: center;
+}
+
+.mainfooter p {
+    font-size: 14px;
+}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
